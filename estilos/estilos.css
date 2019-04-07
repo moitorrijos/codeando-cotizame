@@ -65,7 +65,7 @@ nav a {
 
 .banner {
 	background: url('../imagenes/cotizame-fondo-escritorio.jpg');
-	height: 820px;
+	height: 940px;
 	background-size: cover;
 	background-position: center center;
 	margin-top: -82px;
@@ -87,7 +87,7 @@ nav a {
 }
 
 .caracteristicas {
-	margin: 70px auto;
+	margin: 50px auto;
 }
 
 .caracteristica {
