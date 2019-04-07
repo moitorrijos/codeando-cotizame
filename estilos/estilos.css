@@ -1,0 +1,151 @@
+body {
+	font-family: 'Abel', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #425F93;
+}
+
+.top-menu {
+	background: #173A78;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify {
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.top-menu a {
+	color: white;
+	text-decoration: none;
+	padding: 8px 20px;
+	display: inline-block;
+}
+
+.top-menu a:hover {
+	background: #102A58;
+}
+
+.logo img {
+	margin-right: 20px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+.boton-principal {
+	color: white;
+	background: #173A78;
+	border-radius: 20px;
+	padding: 8px 30px;
+}
+
+.banner {
+	background: url('../imagenes/cotizame-fondo-escritorio.jpg');
+	height: 820px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -82px;
+}
+
+.banner h1 {
+	margin: 0;
+	padding: 120px 0;
+	text-align: center;
+	font-family: 'Dosis', Arial, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.banner h1 span {
+	font-family: 'Alex Brush', cursive;
+	font-size: 64px;
+}
+
+.caracteristicas {
+	margin: 70px auto;
+}
+
+.caracteristica {
+	width: 30%;
+}
+
+.caracteristica img {
+	margin-right: 20px;
+}
+
+.caracteristica p {
+	font-size: 26px;
+	line-height: 1.2;
+}
+
+h3.slogan {
+	max-width: 784px;
+	text-align: center;
+	margin: 0 auto 70px;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+h3.slogan span {
+	font-family: 'Alex Brush', cursive;
+	font-size: 48px;
+}
+
+.grid {
+	display: grid;
+}
+
+.tipo-empresas {
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 60px;
+	justify-items: end;
+}
+
+.empresa:last-child {
+	justify-self: start;
+}
+
+.empresa {
+	width: 440px;
+}
+
+.empresa h4 {
+	text-align: center;
+	font-family: 'Alex Brush', cursive;
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+.empresa img {
+	width: 100%;
+}
+
+.empresa p {
+	padding: 20px;
+}
