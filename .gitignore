@@ -11,6 +11,8 @@
 *.jfif
 *.jfi
 
+favicon.ico
+
 # JPEG 2000
 *.jp2
 *.j2k
