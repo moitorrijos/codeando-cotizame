@@ -91,7 +91,7 @@ nav a {
 	height: 940px;
 	background-size: cover;
 	background-position: center center;
-	margin-top: -82px;
+	margin-top: -85px;
 }
 
 .banner h1 {
@@ -201,6 +201,16 @@ h3.slogan span {
 	margin-bottom: 60px;
 }
 
+.descripcion-equipo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.descripcion-equipo h2 {
+	letter-spacing: -1px;
+}
+
 .testimonios {
 	align-items: center;
 	margin-bottom: 120px;
@@ -218,7 +228,7 @@ h3.slogan span {
 
 footer {
 	background-image: url('../imagenes/faces.jpg');
-	padding-top: 6%;
+	padding-top: 6.5%;
 	background-size: contain;
 	background-repeat: repeat-x;
 }
