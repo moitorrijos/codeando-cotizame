@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Abel', Arial, sans-serif;
 	font-size: 18px;
@@ -276,14 +280,33 @@ footer {
 }
 
 .footer input.text {
-	padding: 9px 12px;
-	margin-bottom: 8px;
+	padding: 10px 20px;
 	width: 100%;
 	border: none;
 	border-radius: 8px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
+}
+
+.email-enviar {
+	width: 100%;
+}
+
+.footer input.email {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	flex-grow: 1;
+}
+
+.footer .boton-boletin {
+	background: var(--secondary-color);
+	border: none;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding: 0 18px;
+	display: flex;
+	justify-content: center;
 }
 
 .copyright {
