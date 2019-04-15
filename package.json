@@ -1,0 +1,28 @@
+{
+  "name": "cotizame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "concurrently": "^4.1.0"
+  },
+  "devDependencies": {
+    "html-includes": "^4.1.1",
+    "postcss-cli-simple": "^3.0.0"
+  },
+  "scripts": {
+	 "compile": "concurrently \"postcss --use autoprefixer -c options.json -o dist/estilos/estilos.css estilos/*.css\" \"html-includes --src src --dest dist\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moitorrijos/cotizame-inicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moitorrijos/cotizame-inicio/issues"
+  },
+  "homepage": "https://github.com/moitorrijos/cotizame-inicio#readme"
+}

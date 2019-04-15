@@ -1,0 +1,320 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Abel', Arial, sans-serif;
+	font-size: 18px;
+	color: #4A4A4A;
+	line-height: 1.5;
+	margin: 0;
+	--primary-color: #425F93;
+	--secondary-color: #173A78;
+}
+
+a {
+	text-decoration: none;
+	color: #425F93;
+}
+
+.top-menu {
+	background: var(--secondary-color);
+	font-size: 16px;
+}
+
+.menu-principal {
+	font-size: 18px;
+}
+
+nav.menu-principal a {
+	transition: background 300ms ease-in-out;
+	border-radius: 20px;
+}
+
+nav.menu-principal a:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.right {
+	justify-content: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify {
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.top-menu a {
+	color: white;
+	text-decoration: none;
+	padding: 8px 20px;
+	display: inline-block;
+	transition: background 400ms ease-in-out;
+}
+
+.top-menu a:hover {
+	background: #102A58;
+}
+
+.logo img {
+	margin-right: 20px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+.boton-principal {
+	color: white;
+	background: var(--secondary-color);
+	border-radius: 20px;
+	padding: 8px 30px;
+	transition: background 250ms ease-in-out;
+}
+
+.boton-principal:hover {
+	background: #102A58;
+}
+
+.banner {
+	background: url('../imagenes/cotizame-fondo-escritorio.jpg');
+	height: 940px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -85px;
+}
+
+.banner h1 {
+	margin: 0;
+	padding: 120px 0;
+	text-align: center;
+	font-family: 'Dosis', Arial, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.banner h1 span {
+	font-family: 'Alex Brush', cursive;
+	font-size: 64px;
+}
+
+.caracteristicas {
+	margin: 50px auto;
+}
+
+.caracteristica {
+	width: 30%;
+	align-items: center;
+
+}
+
+.caracteristica img {
+	margin-right: 20px;
+}
+
+.caracteristica p {
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 0;
+}
+
+h3.slogan {
+	max-width: 784px;
+	text-align: center;
+	margin: 0 auto 70px;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 1;
+}
+
+h3.slogan span {
+	font-family: 'Alex Brush', cursive;
+	font-size: 48px;
+}
+
+.grid {
+	display: grid;
+}
+
+.tipo-empresas {
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 60px;
+	justify-items: end;
+	margin-bottom: 40px;
+}
+
+.empresa:last-child {
+	justify-self: start;
+}
+
+.empresa {
+	width: 440px;
+}
+
+.empresa h4 {
+	text-align: center;
+	font-family: 'Alex Brush', cursive;
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+.empresa img {
+	width: 100%;
+}
+
+.empresa p {
+	padding: 20px;
+}
+
+.prueba-cotizame {
+	text-align: center;
+	padding: 30px 0;
+	border-top: 1px solid #C9C9C9;
+	border-bottom: 1px solid #C9C9C9;
+	margin-bottom: 40px;
+}
+
+.prueba-cotizame h3 {
+	line-height: 1;
+	font-weight: normal;
+}
+
+.prueba-cotizame .boton-principal {
+	font-size: 18px;
+	margin: 0 20px;
+	padding: 8px 40px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+}
+
+.equipo-cotizame {
+	margin-bottom: 60px;
+}
+
+.descripcion-equipo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.descripcion-equipo h2 {
+	letter-spacing: -1px;
+}
+
+.testimonios {
+	align-items: center;
+	margin-bottom: 120px;
+}
+
+.testimonio-texto blockquote {
+	font-size: 36px;
+	line-height: 1.2;
+}
+
+.testimonio-texto p {
+	margin: 20px 40px;
+	letter-spacing: 1px;
+}
+
+footer {
+	background-image: url('../imagenes/faces.jpg');
+	padding-top: 6.5%;
+	background-size: contain;
+	background-repeat: repeat-x;
+}
+
+.footer {
+	border-top: 16px solid var(--secondary-color);
+	background-color: var(--primary-color);
+	color: white;
+	padding: 20px 0 45px;
+}
+
+.footer h4 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0;
+	line-height: 1.8;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer > .container > div {
+	width: 30%;
+}
+
+.quienes-somos h4 {
+	align-items: center;
+}
+
+.quienes-somos h4 img {
+	margin-right: 10px;
+}
+
+.footer label, .footer input {
+	display: block;
+}
+
+.footer label {
+	font-size: 16px;
+}
+
+.footer input.text {
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+}
+
+.email-enviar {
+	width: 100%;
+}
+
+.footer input.email {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	flex-grow: 1;
+}
+
+.footer .boton-boletin {
+	background: var(--secondary-color);
+	border: none;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding: 0 18px;
+	display: flex;
+	justify-content: center;
+}
+
+.copyright {
+	background: var(--secondary-color);
+	color: white;
+}
+
+.copyright p {
+	font-size: 15px;
+	margin: 10px 0;
+}
